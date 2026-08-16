@@ -56,6 +56,21 @@ CSV loading and manual entry are kept as separate functions rather than merged i
 
 `get_debts()` and `get_extra_payment()` are not covered by automated tests, since both depend on `input()`.
 
+### Requirements
+
+Dependencies are listed in `requirements.txt`:
+
+```
+tabulate
+pytest
+```
+
+Install with:
+
+```bash
+pip install -r requirements.txt
+```
+
 ### Usage
 
 ```bash
@@ -70,3 +85,4 @@ name,balance,rate,min_payment
 Visa,1500,24.5,50
 Car Loan,8000,7.2,220
 ```
+
